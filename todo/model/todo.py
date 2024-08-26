@@ -40,7 +40,7 @@ class TodoBook:
 
     def tags_todo_count(self):
         tags_counter = {}
-        for todo in self.todos:
+        for todo in self.todos.values():
             for tag in todo.tags:
                 if tag in tags_counter:
                     tags_counter[tag] = tags_counter[tag] + 1
