@@ -1,7 +1,7 @@
 import pytest
 import inspect
 
-import todo.model.todo
+import todo.mode
 
 
 module_members = [item[0] for item in inspect.getmembers(todo.model.todo)]
